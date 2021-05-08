@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nasihs/CLionProjects/MCTS/moduleA.h
+
+C:/Users/nasihs/CLionProjects/MCTS/moduleB.c
+moduleB.h
+C:/Users/nasihs/CLionProjects/MCTS/moduleB.h
+moduleA.h
+C:/Users/nasihs/CLionProjects/MCTS/moduleA.h
+
+C:/Users/nasihs/CLionProjects/MCTS/moduleB.h
+
