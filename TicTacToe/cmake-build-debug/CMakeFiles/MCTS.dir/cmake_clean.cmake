@@ -1,12 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj"
+  "CMakeFiles/MCTS.dir/chessBoard.c.obj"
   "CMakeFiles/MCTS.dir/main.c.obj"
   "CMakeFiles/MCTS.dir/moduleA.c.obj"
   "CMakeFiles/MCTS.dir/moduleB.c.obj"
   "MCTS.exe"
   "MCTS.exe.manifest"
-  "MCTS.lib"
   "MCTS.pdb"
+  "libMCTS.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

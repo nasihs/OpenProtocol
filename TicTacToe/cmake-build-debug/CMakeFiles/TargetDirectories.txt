@@ -1,3 +1,3 @@
-C:/Users/nasihs/CLionProjects/MCTS/cmake-build-debug/CMakeFiles/MCTS.dir
-C:/Users/nasihs/CLionProjects/MCTS/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/nasihs/CLionProjects/MCTS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/cmake-build-debug/CMakeFiles/MCTS.dir
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/cmake-build-debug/CMakeFiles/rebuild_cache.dir

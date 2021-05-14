@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/nasihs/CLionProjects/MCTS/moduleA.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.c
+stdio.h
+-
+chessBoard.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.h
 
-C:/Users/nasihs/CLionProjects/MCTS/moduleB.c
-moduleB.h
-C:/Users/nasihs/CLionProjects/MCTS/moduleB.h
-moduleA.h
-C:/Users/nasihs/CLionProjects/MCTS/moduleA.h
-
-C:/Users/nasihs/CLionProjects/MCTS/moduleB.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.h
 

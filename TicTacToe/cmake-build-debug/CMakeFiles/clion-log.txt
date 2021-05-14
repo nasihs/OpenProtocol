@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\nasihs\CLionProjects\MCTS
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/nasihs/CLionProjects/MCTS/cmake-build-debug
+-- Build files have been written to: C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/cmake-build-debug
