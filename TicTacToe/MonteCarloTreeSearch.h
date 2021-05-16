@@ -1,23 +1,27 @@
-//
-// Created by nasihs on 2021/5/6.
-//
+/*
+ *
+ */
 
 #ifndef MCTS_MONTECARLOTREESEARCH_H
 #define MCTS_MONTECARLOTREESEARCH_H
 
+#include "chessBoard.h"
+#define MAX_CHILD_NUM (16)
+
 typedef struct _mctsNode {
-    struct _mctsNode *parent;
-    struct _mctsNode *child;
-    int state;
-    int winTime;
-    int visitedTime;
+    struct _mctsNode    *parent;
+    struct _mctsNode    *child[MAX_CHILD_NUM];
+    gameState           state;
+    int                 winTime;
+    int                 visitedTime;
+    pieceType           whoseTurn;
+    int                 board[3][3];
 } mctsNode;
 //typedef mctsNode_t *mctsNode;
 
-int isLeafNode(mctsNode* node);
-int expandNode(mctsNode *node);
-int simulateANode(mctsNode *node);  /* 0->fail, 1->success */
-int backPropagation(mctsNode *node, int result);
+mctsNode* monteCarloTreeSearch(mctsNode *root);
+mctsNode* traverseTree(mctsNode *node);
+int backPropagation(mctsNode *node, gameState result);
 mctsNode* chooseTheBestChild(mctsNode *root);  // 返回value最大的子节点
 
 #endif //MCTS_MONTECARLOTREESEARCH_H
