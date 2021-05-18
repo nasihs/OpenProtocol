@@ -5,6 +5,10 @@
 #ifndef MCTS_CHESSBOARD_H
 #define MCTS_CHESSBOARD_H
 
+#define WIN_SCORE   (1)
+#define LOSE_SCORE  (-1)
+#define DRAW_SCORE  (0)
+
 typedef enum _pieceType {
     BLANK = 0,
     CROSS = 1,
@@ -22,6 +26,16 @@ typedef struct _move {
     int x;
     int y;
 } move;
+
+typedef struct _game {
+    pieceType playersRole;
+    pieceType robotsRole;
+    gameState state;
+    void*     root;
+} game;
+
+extern pieceType getPlayersRole(void);
+extern pieceType getRobotsRole(void);
 
 // extern int isGameFinished(int **board);
 extern void showChessBoard(int **board);

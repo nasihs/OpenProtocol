@@ -5,6 +5,15 @@
 #include "chessBoard.h"
 #include "MonteCarloTreeSearch.h"
 
+static game myGame;
+pieceType getPlayersRole(void) {
+    return myGame.playersRole;
+}
+
+pieceType getRobotsRole(void) {
+    return myGame.robotsRole;
+}
+
 static gameState checkWhetherAnyoneWin(const mctsNode *node, const move *mov);
 static int isBoardFull(int board[3][3]);
 gameState applyMove(mctsNode *node, const move *mov) {
