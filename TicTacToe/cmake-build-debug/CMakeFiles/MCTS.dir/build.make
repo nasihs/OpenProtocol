@@ -127,18 +127,18 @@ CMakeFiles/MCTS.dir/moduleB.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCTS.dir/moduleB.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\moduleB.c -o CMakeFiles\MCTS.dir\moduleB.c.s
 
-CMakeFiles/MCTS.dir/chessBoard.c.obj: CMakeFiles/MCTS.dir/flags.make
-CMakeFiles/MCTS.dir/chessBoard.c.obj: ../chessBoard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MCTS.dir/chessBoard.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MCTS.dir\chessBoard.c.obj -c C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\chessBoard.c
+CMakeFiles/MCTS.dir/game.c.obj: CMakeFiles/MCTS.dir/flags.make
+CMakeFiles/MCTS.dir/game.c.obj: ../game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MCTS.dir/game.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MCTS.dir\game.c.obj -c C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\game.c
 
-CMakeFiles/MCTS.dir/chessBoard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MCTS.dir/chessBoard.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\chessBoard.c > CMakeFiles\MCTS.dir\chessBoard.c.i
+CMakeFiles/MCTS.dir/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MCTS.dir/game.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\game.c > CMakeFiles\MCTS.dir\game.c.i
 
-CMakeFiles/MCTS.dir/chessBoard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCTS.dir/chessBoard.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\chessBoard.c -o CMakeFiles\MCTS.dir\chessBoard.c.s
+CMakeFiles/MCTS.dir/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MCTS.dir/game.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nasihs\Documents\academic\coding\learnC\TicTacToe\game.c -o CMakeFiles\MCTS.dir\game.c.s
 
 # Object files for target MCTS
 MCTS_OBJECTS = \
@@ -146,7 +146,7 @@ MCTS_OBJECTS = \
 "CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj" \
 "CMakeFiles/MCTS.dir/moduleA.c.obj" \
 "CMakeFiles/MCTS.dir/moduleB.c.obj" \
-"CMakeFiles/MCTS.dir/chessBoard.c.obj"
+"CMakeFiles/MCTS.dir/game.c.obj"
 
 # External object files for target MCTS
 MCTS_EXTERNAL_OBJECTS =
@@ -155,7 +155,7 @@ MCTS.exe: CMakeFiles/MCTS.dir/main.c.obj
 MCTS.exe: CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj
 MCTS.exe: CMakeFiles/MCTS.dir/moduleA.c.obj
 MCTS.exe: CMakeFiles/MCTS.dir/moduleB.c.obj
-MCTS.exe: CMakeFiles/MCTS.dir/chessBoard.c.obj
+MCTS.exe: CMakeFiles/MCTS.dir/game.c.obj
 MCTS.exe: CMakeFiles/MCTS.dir/build.make
 MCTS.exe: CMakeFiles/MCTS.dir/linklibs.rsp
 MCTS.exe: CMakeFiles/MCTS.dir/objects1.rsp

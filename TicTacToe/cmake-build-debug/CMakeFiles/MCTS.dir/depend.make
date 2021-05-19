@@ -3,15 +3,15 @@
 
 CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj: ../MonteCarloTreeSearch.c
 CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj: ../MonteCarloTreeSearch.h
+CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.obj: ../game.h
 
-CMakeFiles/MCTS.dir/chessBoard.c.obj: ../chessBoard.c
-CMakeFiles/MCTS.dir/chessBoard.c.obj: ../chessBoard.h
+CMakeFiles/MCTS.dir/game.c.obj: ../MonteCarloTreeSearch.h
+CMakeFiles/MCTS.dir/game.c.obj: ../game.c
+CMakeFiles/MCTS.dir/game.c.obj: ../game.h
 
 CMakeFiles/MCTS.dir/main.c.obj: ../MonteCarloTreeSearch.h
-CMakeFiles/MCTS.dir/main.c.obj: ../chessBoard.h
+CMakeFiles/MCTS.dir/main.c.obj: ../game.h
 CMakeFiles/MCTS.dir/main.c.obj: ../main.c
-CMakeFiles/MCTS.dir/main.c.obj: ../moduleA.h
-CMakeFiles/MCTS.dir/main.c.obj: ../moduleB.h
 
 CMakeFiles/MCTS.dir/moduleA.c.obj: ../moduleA.c
 CMakeFiles/MCTS.dir/moduleA.c.obj: ../moduleA.h

@@ -168,32 +168,32 @@ MonteCarloTreeSearch.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/MonteCarloTreeSearch.c.s
 .PHONY : MonteCarloTreeSearch.c.s
 
-chessBoard.obj: chessBoard.c.obj
+game.obj: game.c.obj
 
-.PHONY : chessBoard.obj
+.PHONY : game.obj
 
 # target to build an object file
-chessBoard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/chessBoard.c.obj
-.PHONY : chessBoard.c.obj
+game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/game.c.obj
+.PHONY : game.c.obj
 
-chessBoard.i: chessBoard.c.i
+game.i: game.c.i
 
-.PHONY : chessBoard.i
+.PHONY : game.i
 
 # target to preprocess a source file
-chessBoard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/chessBoard.c.i
-.PHONY : chessBoard.c.i
+game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/game.c.i
+.PHONY : game.c.i
 
-chessBoard.s: chessBoard.c.s
+game.s: game.c.s
 
-.PHONY : chessBoard.s
+.PHONY : game.s
 
 # target to generate assembly for a file
-chessBoard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/chessBoard.c.s
-.PHONY : chessBoard.c.s
+game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MCTS.dir\build.make CMakeFiles/MCTS.dir/game.c.s
+.PHONY : game.c.s
 
 main.obj: main.c.obj
 
@@ -288,9 +288,9 @@ help:
 	@echo ... MonteCarloTreeSearch.obj
 	@echo ... MonteCarloTreeSearch.i
 	@echo ... MonteCarloTreeSearch.s
-	@echo ... chessBoard.obj
-	@echo ... chessBoard.i
-	@echo ... chessBoard.s
+	@echo ... game.obj
+	@echo ... game.i
+	@echo ... game.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

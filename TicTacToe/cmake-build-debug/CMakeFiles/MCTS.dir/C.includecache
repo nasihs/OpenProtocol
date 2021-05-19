@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.c
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/MonteCarloTreeSearch.h
+game.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/game.h
+
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/game.h
+
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/main.c
 stdio.h
 -
-chessBoard.h
-C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.h
-
-C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.h
+MonteCarloTreeSearch.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/MonteCarloTreeSearch.h
+game.h
+C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/game.h
 

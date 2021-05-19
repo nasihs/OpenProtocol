@@ -2,8 +2,8 @@
 // Created by nasihs on 2021/5/9.
 //
 
-#ifndef MCTS_CHESSBOARD_H
-#define MCTS_CHESSBOARD_H
+#ifndef MCTS_GAME_H
+#define MCTS_GAME_H
 
 #define WIN_SCORE   (1)
 #define LOSE_SCORE  (-1)
@@ -41,4 +41,4 @@ extern pieceType getRobotsRole(void);
 extern void showChessBoard(int **board);
 
 
-#endif //MCTS_CHESSBOARD_H
+#endif //MCTS_GAME_H

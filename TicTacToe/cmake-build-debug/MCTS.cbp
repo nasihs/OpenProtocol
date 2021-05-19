@@ -80,10 +80,10 @@
 		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/MonteCarloTreeSearch.h">
 			<Option target="MCTS"/>
 		</Unit>
-		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.c">
+		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/game.c">
 			<Option target="MCTS"/>
 		</Unit>
-		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/chessBoard.h">
+		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/game.h">
 			<Option target="MCTS"/>
 		</Unit>
 		<Unit filename="C:/Users/nasihs/Documents/academic/coding/learnC/TicTacToe/main.c">

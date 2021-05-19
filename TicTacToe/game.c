@@ -2,10 +2,15 @@
 // Created by nasihs on 2021/5/9.
 //
 #include <stdio.h>
-#include "chessBoard.h"
+#include "game.h"
 #include "MonteCarloTreeSearch.h"
 
-static game myGame;
+game myGame;
+
+int initGame(pieceType player) {
+
+}
+
 pieceType getPlayersRole(void) {
     return myGame.playersRole;
 }
@@ -25,7 +30,6 @@ gameState applyMove(mctsNode *node, const move *mov) {
     }
     return state;
 }
-
 gameState checkWhetherAnyoneWin(const mctsNode *node, const move *mov) {
     gameState state = NOT_END;
 

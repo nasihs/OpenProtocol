@@ -4,16 +4,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 #include <iso646.h>
 #include "MonteCarloTreeSearch.h"
 
+
 static mctsNode* getBestUCTChild(mctsNode *node);
-static mctsNode* expandNode(mctsNode *parent);
 static gameState rollout(const mctsNode *node);
-static gameState applyMove(mctsNode *node, const move *mov);
-static int getChildNum(mctsNode *parent);
 static mctsNode* createChildNode(mctsNode *parent, int x, int y);
 static void appendChild(mctsNode *parent, mctsNode *child);
+
+
+mctsNode* monteCarloTreeSearch(mctsNode *root) {
+    mctsNode *leaf = NULL;
+    for (int i = 0; i < SEARCH_TIME; i++) {
+        leaf = traverseTree(root);
+//        if (cur->visitedTime <= 0) {
+//            cur = expandNode(cur);
+//        } else {
+        gameState result = rollout(leaf);
+        backPropagation(leaf, result);
+    }
+    return getTheBestChild(root);
+}
+
+mctsNode* getBestUCTChild(mctsNode *node) {
+    mctsNode *best = NULL;
+    return NULL;
+}
 
 
 mctsNode* traverseTree(mctsNode *node) {
@@ -31,6 +49,41 @@ mctsNode* traverseTree(mctsNode *node) {
     return tmpNode;
 }
 
+/* back propagation */
+int backPropagation(mctsNode *node, gameState result) {
+    if (!node)
+        return 0;
+
+    /* update node state */
+    if (result == getPlayersRole()) {
+        node->winTime++;
+        node->visitedTime++;
+        backPropagation(node->parent, result);
+    } else {
+        node->visitedTime++;
+        backPropagation(node->parent, result);
+    }
+}
+
+// 返回value最大的子节点
+mctsNode* getTheBestChild(mctsNode *root) {
+    mctsNode *best = NULL;
+    if (!root->child[0])
+        return NULL;
+    for (int i = 0; i < MAX_CHILD_NUM; i++) {
+        if (root->child[i]) {
+            if (root->child[i]->visitedTime > best->visitedTime) {
+                best = root->child[i];
+            } else {
+                continue;
+            }
+        }
+    }
+    return best;
+}
+
+
+extern gameState applyMove(mctsNode *node, const move *mov);
 /* 采用随机走子模拟游戏结果 */
 gameState rollout(const mctsNode *node) {
     gameState state = NOT_END;
